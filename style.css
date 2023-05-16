@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+  font-family: "Roboto" sans-serif;
+}
+
+.convert {
+  height: 969px;
+  background-color: #f7f7f7;
+}
+.convert__wrapper {
+  padding-top: 350px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.convert__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 41px;
+  color: #1f2261;
+}
+.convert__wrapper-cur {
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #00000060;
+}
+
+.convert__wrapper-USD {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+  padding-top: 2px;
+}
+.convert__text-USD {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #26278d;
+}
+.convert__input-one {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  border: 0;
+  max-height: 40px;
+  width: 108px;
+  background-color: #efefef;
+  border-radius: 20px;
+  border: 1px solid #00000036;
+  color: #26278d;
+}
+.convert__button-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.convert__button {
+  border: 0;
+  display: flex;
+  justify-content: center;
+  max-width: 55px;
+  max-height: 55px;
+  background-color: #2508e3a8;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px #00000060;
+}
+.convert__titile-result {
+  color: #a2a2a2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 14px;
+  padding-left: 20px;
+}
+.convert__wrapper-RUB {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+.convert__text-RUB {
+  max-height: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #26278d;
+}
+.convert_result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #efefef;
+  height: 40px;
+  width: 112px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  border-radius: 20px;
+  border: 1px solid #00000036;
+  margin-bottom: 1px;
+  color: #26278d;
+}

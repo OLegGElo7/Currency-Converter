@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="convert">
+        <div class="convert__wrapper">
+          <h1 class="convert__title">Currency Converter</h1>
+          <div class="convert__wrapper-cur">
+            <div class="convert__wrapper-USD">
+              <img src="USA.png" alt="RUB" width="40px" />
+              <p class="convert__text-USD">USD</p>
+              <input type="number" class="convert__input-one" />
+            </div>
+            <div class="convert__button-wrapper">
+              <button class="convert__button">
+                <img src="pngwing.com.png" alt="convert" />
+              </button>
+            </div>
+
+            <h2 class="convert__titile-result">Indicative Exchange Rate</h2>
+            <div class="convert__wrapper-RUB">
+              <img src="RUS.png" alt="USD" width="40px" />
+              <p class="convert__text-RUB">RUB</p>
+              <p class="convert_result"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="convert.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
